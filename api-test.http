@@ -1,0 +1,60 @@
+### ch-3
+POST http://localhost:3000/
+Accept: application/json
+
+### ch-5
+GET http://localhost:3000/boat/5
+Accept: application/json
+
+### ch-6 get
+GET http://localhost:3000/boat/2
+Accept: application/json
+
+### ch-6 post
+POST http://localhost:3000/boat
+Content-Type: application/json
+
+{
+  "data": {
+    "brand": "BMW",
+    "color": "GREEN"
+  }
+}
+
+### ch-6 post
+DELETE http://localhost:3000/boat/2
+Accept: application/json
+
+### ch-7 post
+GET http://localhost:3000/1
+
+### ch-8 post
+GET http://localhost:3000/?url=http://localhost:5555/
+
+### ch-9 post lab-1
+GET http://localhost:3000/?un=aaaa&un=b&un=b
+
+### ch-9 post lab-2 post
+POST http://localhost:3000/boat/
+Content-Type: application/json
+
+{
+  "data": {
+    "brand": "BMW",
+    "color": "GREEN",
+    "additional": "crap!"
+  }
+}
+
+### ch-9 post lab-2 get
+GET http://localhost:3000/boat/4
+
+
+### ch-10 post
+GET http://localhost:3000/
+X-Forwarded-For: 211.133.33.113
+
+
+###
+
+
